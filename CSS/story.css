@@ -109,30 +109,35 @@ body {
 
 
   /* ----------------------------  Subscribe Section ------------- */
-  .container-3{
-    display: flex;
-   justify-content: space-evenly;
-   line-height: 20px;
-   margin: 50px;
-   text-align:  justify;
-  }
 
-    img{
-      border-radius: 50%;
-      height: 300px;
+    .container-3{
+     display: flex;
+     justify-content: space-evenly;
+     line-height: 20px;
+     margin: 50px;  
+    }  
+  
+    img{  
+      border-radius:50%;
+      height: 300px;  
       transform: translateX(120px);
     }
 
     .header{
       line-height: 30px;
     }
+
     .side-part{
       margin-top:70px ;
       position: relative;
-      transform: translateX(-120px);
+      /* transform: translateX(-120px); */
     }
     
- 
+    .form{
+      position: relative;
+      top: 50px;
+    }
+
     form{
       line-height: 50px;
     }
@@ -142,10 +147,6 @@ body {
       height: 40PX;
       border: 1px solid black;
     }
-
-
-
-
 
  /*---------------------------- Footer------------------- */
   
